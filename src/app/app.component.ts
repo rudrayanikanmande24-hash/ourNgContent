@@ -18,7 +18,7 @@ export class AppComponent implements OnInit{
     private _httpClient : HttpClient
      
   ){
-
+  
   }
 
   ngOnInit(): void {
@@ -27,6 +27,8 @@ export class AppComponent implements OnInit{
       console.log(res);
       this.postArr=res
      })
+
+
   }
 
 
